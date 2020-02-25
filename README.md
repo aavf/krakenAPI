@@ -2,7 +2,7 @@
 ## Install and activate
 In a terminal, from project folder:
 
-.. code-block:: sh
+::
 
 python3 -m venv venv
 
@@ -12,7 +12,7 @@ python3 -m venv venv
 ### Make the krakenapi.py file executable.
 You can use the "chmod 755" command (change mode). For example:
 
-.. code-block:: sh
+::
 
 chmod 755 krakenapi.py
 
