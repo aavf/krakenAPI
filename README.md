@@ -1,11 +1,11 @@
-# Virtual enviroment
-## Install and activate
+## Virtual enviroment
+### Install and activate
 In a terminal, from project folder:
 
 ```
 python3 -m venv venv
 
-. venv/bin/activate
+source venv/bin/activate
 ```
 
 ## Config
@@ -23,11 +23,13 @@ Copy/paste your API private (secret) key into file called "API_Private_Key".
 
 An API key is only needed if you plan to use the private API endpoints to access your Kraken account (such as balance inquiries, placing/cancelling orders, account history exports, etc).
 
-# Usage: ./krakenapi method [parameters]
-Example: ./krakenapi.py Time
+## Usage: ./krakenapi.py method [parameters]
+Examples: 
 
-Example: ./krakenapi.py OHLC pair=xbtusd interval=1440
+./krakenapi.py Time
 
-Example: ./krakenapi.py Balance
+./krakenapi.py OHLC pair=xbtusd interval=1440
 
-Example: ./krakenapi.py OpenPositions
+./krakenapi.py Balance
+
+./krakenapi.py OpenPositions
